@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>HomePage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="Pic/Icon.png" type="image/png">
+  <link rel="stylesheet" href="CSS\bootstrap-grid.css">
+  <link rel="stylesheet" href="CSS\bootstrap-grid.min.css">
+  <link rel="stylesheet" href="CSS\bootstrap-reboot.css">
+  <link rel="stylesheet" href="CSS\bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="CSS\bootstrap.css">
+  <link rel="stylesheet" href="CSS\bootstrap.min.css">
+  <link rel="stylesheet" href="CSS\HomeCss.css">
+</head>
+
+<body>
+  <header>
+    <nav class="site-header sticky-top py-1 navbar-light navbar navbar-expand-lg" style="background-color: #003c52;">
+      <div class="container d-flex flex-column flex-md-row justify-content-between">
+        <a class="py-2" href="HomePage.html">
+          <img src="Pic/British_flag.png" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="d-block mx-auto">
+        </a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link text-warning" href="HomePage.html">Home <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link text-warning" href="TestsPage.html">Training</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-warning" href="TrainingPage.html">Tests</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-warning" href="#" id="navbarDropdown" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Texts
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Unit 1</a>
+                <a class="dropdown-item" href="#">Unit 2</a>
+                <a class="dropdown-item" href="#">Unit 3</a>
+                <a class="dropdown-item" href="#">Unit 4</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">See all</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-warning" href="#">Ask for me</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+<div class="content">
+    <div class="container">
+        <div class="row" style="padding-top: 20px;">
+            <div class="col-xl-4">
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1" class="lead">Choose a training period</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                        <option>First semester</option>
+                        <option>Second semester</option>
+                        <option>Third semester</option>
+                        <option>Fourth semester</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-xl-4">
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1" class="lead">Selecting a topic</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                        <option>Topic 1</option>
+                        <option>Topic 2</option>
+                        <option>Topic 3</option>
+                        <option>Topic 4</option>
+                        <option>Topic 5</option>
+                        <option>Topic 6</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-xl-4">
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1" class="lead">Choose the test type</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                        <option>The correct answer</option><!--Выбор одного правильного ответа-->
+                        <option>Correct match</option><!--Задание на соответствия-->
+                        <option>Correct addition</option><!--Заполнение пропусков-->
+                        <option>Solve a crossword puzzle</option><!--Кроссворд-->
+                        <option>Random testing</option><!--Кроссворд-->
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+  <footer class="blog-footer">
+    <div class="d-flex justify-content-between" style="background: #003c52;">
+      <div class="left-footer">
+        <p><img class="Logoacademy" src="pic/Vavko1.jpg" alt="VaVKOlogo" width="100" height="100"></p>
+      </div>
+      <div class="midle-footer">
+        <p class="FooterOtst">15 Кафедра (Кафедра иностранных языков)</p>
+        <p >Developed by</p>
+        <p >Alexey Sokolik</p>
+        <p class="FooterOtst">Yaroslav Kustov</p>
+        <p >Va VKO 2021</p>
+
+      </div>
+      <div class="right-footer">
+        <p><img class="Logovko" src="pic/Vavko2.png" alt="VKOlogo" width="100" height="100"></p>
+      </div>
+    </div>
+  </footer>
+  <script src="JS\jquery-3.5.1.min.js"></script>
+  <script src="JS/popper.min.js"></script>
+  <script src="JS\bootstrap.bundle.js"></script>
+  <script src="JS\bootstrap.js"></script>
+
+</body>
+
+</html>

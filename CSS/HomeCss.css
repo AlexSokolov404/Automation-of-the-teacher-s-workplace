@@ -1,0 +1,58 @@
+.content{
+    background: rgb(0,60,82);
+    background: linear-gradient(180deg, rgb(0, 113, 153) 0%, rgba(1,255,248,1) 100%);
+    min-height: 560px;
+}
+.container_slider{
+    margin-bottom: 50px;
+    padding: 0px;
+    max-width: 100%;
+    min-height: 540px;
+}
+.carousel-item img{
+    max-height: 900px;
+}
+.nav-link{
+    color: rgb(255, 255, 255);
+}
+.carousel-caption > p, h3{
+    max-width: max-content;
+}
+.carousel-caption > p,h3{
+    background-color: #003c52;
+}
+.uvelimg{
+    overflow: hidden;
+}
+.lead{
+    color: white;
+}
+.uvelimg .featurette-image{
+    width: 500px;
+    height: 500px;
+    transition: 1s;
+    display: block;
+}
+.uvelimg .featurette-image:hover{
+    transform: scale(1.2);
+}
+.lastrow{
+    padding-bottom: 20px;
+}
+.midle-footer{
+    color: white;
+    
+}
+.midle-footer p{
+    text-align: center;
+    margin: 0px;
+}
+.midle-footer .FooterOtst{
+    padding-bottom: 10px;
+}
+.Logoacademy{
+    margin: 20px 0 0 20px;
+}
+.Logovko{
+    margin: 20px 20px 0 0;
+}
